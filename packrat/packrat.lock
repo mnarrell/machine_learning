@@ -1,0 +1,199 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.3
+RVersion: 3.1.3
+Repos: CRAN=http://cran.r-project.org/
+
+Package: RColorBrewer
+Source: CRAN
+Version: 1.1-2
+Hash: 5203278413b09be06483c5ac1920bb05
+
+Package: Rcpp
+Source: CRAN
+Version: 0.11.6
+Hash: 004f4ffa4d0f4a3d177f2090799225e8
+
+Package: RcppEigen
+Source: CRAN
+Version: 0.3.2.4.0
+Requires: Rcpp
+
+Package: SparseM
+Source: CRAN
+Version: 1.6
+Hash: ebefb2caf6ba73d3202d5153db1af0d8
+
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+Hash: cb26464a8321628636b547518994c931
+
+Package: brglm
+Source: CRAN
+Version: 0.5-9
+Hash: ab397c3e2a17f6fa4bb52992c8a0c871
+Requires: profileModel
+
+Package: caTools
+Source: CRAN
+Version: 1.17.1
+Hash: bb5fdc266f716b8a289a4f92007d53e3
+Requires: bitops
+
+Package: colorspace
+Source: CRAN
+Version: 1.2-6
+Hash: a53ddc5a49706984d234ea5cc209c8f0
+
+Package: dichromat
+Source: CRAN
+Version: 2.0-0
+Hash: 42be2136555fa4b6167605df56d8cd7c
+
+Package: digest
+Source: CRAN
+Version: 0.6.8
+Hash: 89dc4c8734dad5322bb3c5c2af09056f
+
+Package: evaluate
+Source: CRAN
+Version: 0.7
+Hash: 96c38894bf65a2e890f7c6ec840a6466
+Requires: stringr
+
+Package: formatR
+Source: CRAN
+Version: 1.2
+Hash: d518b2a342a62e0add8c07403859ff13
+
+Package: gtable
+Source: CRAN
+Version: 0.1.2
+Hash: 0cf4a2b54c02b35dec7e74a8ebed12a0
+
+Package: highr
+Source: CRAN
+Version: 0.5
+Hash: d9f29aef93e6fd4f287cec2de07ca468
+
+Package: htmltools
+Source: CRAN
+Version: 0.2.6
+Hash: 2c87108d130de261ac3c468d3316ae42
+Requires: digest
+
+Package: iterators
+Source: CRAN
+Version: 1.0.7
+Hash: b5320a58712688d5b18c207cf256ef3f
+
+Package: knitr
+Source: CRAN
+Version: 1.10.5
+Hash: e2d3a7715a4dfbe69940f054799ce95c
+Requires: digest, evaluate, formatR, highr, markdown, stringr, yaml
+
+Package: labeling
+Source: CRAN
+Version: 0.3
+Hash: 568a992912caf7eeddfb121924154047
+
+Package: lme4
+Source: CRAN
+Version: 1.1-7
+Hash: 71b46d090e1c9f90e9ce918d38bb6f4c
+Requires: Rcpp, RcppEigen, minqa, nloptr
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: 38d492cf072bc9f3c73bda2aee3d0e23
+
+Package: markdown
+Source: CRAN
+Version: 0.7.7
+Hash: 3fdcd70d6d9a7067ffa051d143c48f4c
+Requires: mime
+
+Package: mime
+Source: CRAN
+Version: 0.3
+Hash: 843fd754c122f266d910a04642e0703d
+
+Package: minqa
+Source: CRAN
+Version: 1.2.4
+Hash: fe86c50f170b7103e4d324380448627f
+Requires: Rcpp
+
+Package: munsell
+Source: CRAN
+Version: 0.4.2
+Hash: fa8af6d040041439b249351e9d16ae9a
+Requires: colorspace
+
+Package: nloptr
+Source: CRAN
+Version: 1.0.4
+Hash: 2197af13ece296fdf1dd8f8a4e5a40e1
+
+Package: packrat
+Source: CRAN
+Version: 0.4.3
+Hash: 16c72d5c802629fae5a4abca901e0199
+
+Package: pbkrtest
+Source: CRAN
+Version: 0.4-2
+Hash: d28676d1aaa5a988d968cdcb42661177
+Requires: lme4
+
+Package: plyr
+Source: CRAN
+Version: 1.8.2
+Hash: 70681a5a00608b6137b753e1b5994e4a
+Requires: Rcpp
+
+Package: profileModel
+Source: CRAN
+Version: 0.5-9
+Hash: 122950462321c92e539e4ab8ac2ffd58
+
+Package: proto
+Source: CRAN
+Version: 0.3-10
+Hash: 668a9e87cedbdc5f56c396edf1bd2648
+
+Package: quantreg
+Source: CRAN
+Version: 5.11
+Hash: bac5ce40d7995763543a826ca9f39534
+Requires: SparseM
+
+Package: rmarkdown
+Source: CRAN
+Version: 0.5.1
+Hash: 2d87f70c12c5558c50c4b3587fc6f499
+Requires: caTools, htmltools, knitr, yaml
+
+Package: scales
+Source: CRAN
+Version: 0.2.4
+Hash: b8b1af97bd07818605223060386b00dd
+Requires: RColorBrewer, dichromat, labeling, munsell, plyr
+
+Package: stringi
+Source: CRAN
+Version: 0.4-1
+Hash: 955e96fc5961bf9f7b3ca916f9b1e606
+
+Package: stringr
+Source: CRAN
+Version: 1.0.0
+Hash: 513045488dcf8019cc2f4305dc7d1f90
+Requires: magrittr, stringi
+
+Package: yaml
+Source: CRAN
+Version: 2.1.13
+Hash: e5d041c001f6d641fd009c1f6ef7d831
