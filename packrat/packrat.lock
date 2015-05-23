@@ -3,6 +3,12 @@ PackratVersion: 0.4.3
 RVersion: 3.1.3
 Repos: CRAN=http://cran.r-project.org/
 
+Package: BradleyTerry2
+Source: CRAN
+Version: 1.0-6
+Hash: 56bc3d675b15b57052bf564146e3550e
+Requires: brglm, gtools, lme4
+
 Package: RColorBrewer
 Source: CRAN
 Version: 1.1-2
@@ -16,6 +22,7 @@ Hash: 004f4ffa4d0f4a3d177f2090799225e8
 Package: RcppEigen
 Source: CRAN
 Version: 0.3.2.4.0
+Hash: 85352fb252cbf1b41e7594294e28e22e
 Requires: Rcpp
 
 Package: SparseM
@@ -40,6 +47,18 @@ Version: 1.17.1
 Hash: bb5fdc266f716b8a289a4f92007d53e3
 Requires: bitops
 
+Package: car
+Source: CRAN
+Version: 2.0-25
+Hash: 913a72e0f36d7f21b8ed32e4fe3933bf
+Requires: pbkrtest, quantreg
+
+Package: caret
+Source: CRAN
+Version: 6.0-47
+Hash: fbf65e3c9b46f65b17b7bb5f15e4580a
+Requires: BradleyTerry2, car, foreach, ggplot2, plyr, reshape2
+
 Package: colorspace
 Source: CRAN
 Version: 1.2-6
@@ -61,15 +80,32 @@ Version: 0.7
 Hash: 96c38894bf65a2e890f7c6ec840a6466
 Requires: stringr
 
+Package: foreach
+Source: CRAN
+Version: 1.4.2
+Hash: fbdaa99f6c6bd4f252c5d8412f6e79c9
+Requires: iterators
+
 Package: formatR
 Source: CRAN
 Version: 1.2
 Hash: d518b2a342a62e0add8c07403859ff13
 
+Package: ggplot2
+Source: CRAN
+Version: 1.0.1
+Hash: 06a8e5faacfd76c9e4ab11a5b7ad94d6
+Requires: digest, gtable, plyr, proto, reshape2, scales
+
 Package: gtable
 Source: CRAN
 Version: 0.1.2
 Hash: 0cf4a2b54c02b35dec7e74a8ebed12a0
+
+Package: gtools
+Source: CRAN
+Version: 3.4.2
+Hash: 732fe98ce2241bdb302605015725031b
 
 Package: highr
 Source: CRAN
@@ -101,7 +137,7 @@ Hash: 568a992912caf7eeddfb121924154047
 Package: lme4
 Source: CRAN
 Version: 1.1-7
-Hash: 71b46d090e1c9f90e9ce918d38bb6f4c
+Hash: 8a75a1849e79fb42a1af2d5ecab18b27
 Requires: Rcpp, RcppEigen, minqa, nloptr
 
 Package: magrittr
@@ -169,6 +205,12 @@ Source: CRAN
 Version: 5.11
 Hash: bac5ce40d7995763543a826ca9f39534
 Requires: SparseM
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.1
+Hash: e207efbaabcdff1aa2bc697369b62b0c
+Requires: Rcpp, plyr, stringr
 
 Package: rmarkdown
 Source: CRAN
