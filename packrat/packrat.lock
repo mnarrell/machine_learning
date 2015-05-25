@@ -74,6 +74,11 @@ Source: CRAN
 Version: 0.6.8
 Hash: 89dc4c8734dad5322bb3c5c2af09056f
 
+Package: e1071
+Source: CRAN
+Version: 1.6-4
+Hash: 0fa8059d11f82a0c054aaa5065e80206
+
 Package: evaluate
 Source: CRAN
 Version: 0.7
@@ -205,6 +210,11 @@ Source: CRAN
 Version: 5.11
 Hash: bac5ce40d7995763543a826ca9f39534
 Requires: SparseM
+
+Package: randomForest
+Source: CRAN
+Version: 4.6-10
+Hash: 6cfc4af49262a122c8ff130048e60375
 
 Package: reshape2
 Source: CRAN
